@@ -1,1 +1,6 @@
-hello world!
+<h1>Amber's Blog about animals!</h1>
+<% @posts.each do |post| %>
+  <h2> <%= post.title %></h2>
+  <p><%= post.body %></p>
+  <hr>
+<% end %>
